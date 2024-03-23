@@ -69,6 +69,47 @@ p {
   display: block;
 }
 
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  img {
+    display: none;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
